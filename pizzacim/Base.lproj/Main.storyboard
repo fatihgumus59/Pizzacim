@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZnM-6K-k2Y">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pizzacim" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beef Cheese" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lav-tN-APp">
+                                <rect key="frame" x="101" y="108" width="212.5" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yemek_resim" translatesAutoresizingMaskIntoConstraints="NO" id="MB6-7g-gre">
+                                <rect key="frame" x="132" y="167" width="150" height="150"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="AXe-zo-bhd">
+                                <rect key="frame" x="84" y="333" width="246.5" height="28"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ix-Xm-Fwc">
+                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="28"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Cheese">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                            <color key="baseForegroundColor" name="yaziRenk1"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CR-j8-ysW">
+                                        <rect key="frame" x="87.5" y="0.0" width="71.5" height="28"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sausage">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                            <color key="baseForegroundColor" name="yaziRenk1"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMW-IT-3uK">
+                                        <rect key="frame" x="175" y="0.0" width="71.5" height="28"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pepper">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                            <color key="baseForegroundColor" name="yaziRenk1"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpA-HX-DmT">
+                                <rect key="frame" x="174" y="377" width="66" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXy-q9-KVZ">
+                                <rect key="frame" x="161" y="419.5" width="92" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 5.80" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUV-jy-GmY">
+                                <rect key="frame" x="32" y="787" width="110.5" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meat lover, get ready to meet your pizza !" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHt-2X-nD7">
+                                <rect key="frame" x="32" y="480.5" width="350" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tC-fE-RaO">
+                                <rect key="frame" x="250" y="787" width="132" height="43"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CART">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                    <color key="baseForegroundColor" name="yaziRenk1"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nHt-2X-nD7" secondAttribute="trailing" constant="32" id="6VJ-6u-lHU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6tC-fE-RaO" secondAttribute="trailing" constant="32" id="9hF-0D-XD1"/>
+                            <constraint firstItem="Lav-tN-APp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="CJS-9m-FhJ"/>
+                            <constraint firstItem="pUV-jy-GmY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="DKN-tl-jAp"/>
+                            <constraint firstItem="6tC-fE-RaO" firstAttribute="centerY" secondItem="pUV-jy-GmY" secondAttribute="centerY" id="JEK-L2-VHA"/>
+                            <constraint firstItem="fpA-HX-DmT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K8N-WS-zNC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6tC-fE-RaO" secondAttribute="bottom" constant="32" id="LFg-62-dmy"/>
+                            <constraint firstItem="AXe-zo-bhd" firstAttribute="top" secondItem="MB6-7g-gre" secondAttribute="bottom" constant="16" id="OQV-h3-Y9F"/>
+                            <constraint firstItem="MB6-7g-gre" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TmJ-aP-vBX"/>
+                            <constraint firstItem="MB6-7g-gre" firstAttribute="top" secondItem="Lav-tN-APp" secondAttribute="bottom" constant="16" id="UGC-AA-ORz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pUV-jy-GmY" secondAttribute="bottom" constant="32" id="W5n-J2-GPz"/>
+                            <constraint firstItem="GXy-q9-KVZ" firstAttribute="centerX" secondItem="fpA-HX-DmT" secondAttribute="centerX" id="aDV-MZ-rRY"/>
+                            <constraint firstItem="GXy-q9-KVZ" firstAttribute="top" secondItem="fpA-HX-DmT" secondAttribute="bottom" constant="16" id="fc8-kt-8Ds"/>
+                            <constraint firstItem="nHt-2X-nD7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="irU-3h-t4f"/>
+                            <constraint firstItem="AXe-zo-bhd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jT0-bL-d5p"/>
+                            <constraint firstItem="Lav-tN-APp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kcN-ZA-agf"/>
+                            <constraint firstItem="nHt-2X-nD7" firstAttribute="top" secondItem="GXy-q9-KVZ" secondAttribute="bottom" constant="32" id="qd1-Tq-fJ1"/>
+                            <constraint firstItem="fpA-HX-DmT" firstAttribute="top" secondItem="AXe-zo-bhd" secondAttribute="bottom" constant="16" id="yUy-Jq-S4n"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kvt-qO-LrI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="-27.455357142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wqQ-Yn-7ES">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZnM-6K-k2Y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iib-D2-wLs">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fJE-I8-dIr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFb-xD-1rr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="-27.455357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yemek_resim" width="150" height="150"/>
+        <namedColor name="anaRenk">
+            <color red="0.63921568627450975" green="0.19215686274509805" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.32941177490000001" green="0.32941177490000001" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
